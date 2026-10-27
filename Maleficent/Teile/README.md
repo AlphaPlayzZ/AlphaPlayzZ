@@ -2,6 +2,18 @@
 
 Aus `../Malefisenta.stl` erzeugt mit `../teile_bauen.py`. Alle Teile liegen schon richtig herum auf dem Druckbett (Schnittfläche unten) und lassen sich einzeln in einer Farbe drucken.
 
+## Alles in einer Datei: `../Maleficent_Teile.3mf`
+
+Öffne die Datei in der Anycubic Slicer Next mit **Datei → Projekt öffnen** (bzw. „Als Projekt öffnen“, nicht „Nur Geometrie importieren“). Dann gibt es vier Platten:
+
+1. **Toleranztest**: Zapfen und Loch, zuerst drucken
+2. **Kopf**: Tree-Stützen und Brim sind schon eingestellt
+3. **Oberkörper**: Tree-Stützen und Brim sind schon eingestellt
+4. **Robe**
+
+Pro Platte das Filament wählen, „Platte slicen“ und drucken. Drucker-, Filament- und Druckprofil bleiben deine eigenen.
+Erzeugt wird die 3MF mit `../projekt_3mf.py`.
+
 | Datei | Größe (mm) | Verbindung | Farbe (Vorschlag) |
 |---|---|---|---|
 | `1_Robe_unten.stl` | 137 × 175 × 61 | 2 Sechskant-Zapfen oben | Schwarz |
